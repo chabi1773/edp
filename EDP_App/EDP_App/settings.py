@@ -81,10 +81,10 @@ WSGI_APPLICATION = "EDP_App.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "edp_db",
+        "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "edp230017N",
-        "HOST": "localhost",
+        "HOST": "edp-db.cx6cgi4sw9s7.eu-north-1.rds.amazonaws.com",
         "PORT": "5432"
     }
 }
