@@ -81,7 +81,9 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 dill @ file:///C:/ci_311/dill_1676433323862/work
 distributed @ file:///C:/b/abs_7509xfv227/croot/distributed_1686866088894/work
+dj-database-url==2.3.0
 Django==5.2
+django-cors-headers==4.7.0
 djangorestframework==3.16.0
 docstring-to-markdown @ file:///C:/ci_311/docstring-to-markdown_1677742566583/work
 docutils @ file:///C:/ci_311/docutils_1676428078664/work
