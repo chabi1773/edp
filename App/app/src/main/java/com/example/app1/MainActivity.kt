@@ -13,16 +13,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.app1.inf.MainScreen
 import com.example.app1.ui.theme.App1Theme
-import com.example.app1.viewmodel.UserViewModel
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            val userViewModel = viewModel<UserViewModel>()
-            MainScreen(userViewModel = userViewModel)
+            MaterialTheme{
+                TemperatureDashboard()
+            }
 
         }
     }
