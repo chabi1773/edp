@@ -6,15 +6,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 
- '''
-class UserProfileViewSet(viewsets.ModelViewSet):
-    queryset = UserProfile.objects.all()
-    serializer_class = UserProfileSerializer
 
-class TemperatureRecordViewSet(viewsets.ModelViewSet):
-    queryset = TemperatureRecord.objects.all()
-    serializer_class = TemperatureRecordSerializer
- '''
 @api_view(['GET'])
 def get_users(request):
     users = UserProfile.objects.all()
