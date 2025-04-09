@@ -1,5 +1,6 @@
 package com.example.app1
 
+import TemperatureDashboard
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent

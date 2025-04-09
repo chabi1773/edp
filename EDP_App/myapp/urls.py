@@ -9,6 +9,6 @@ router.register(r'temperatures', TemperatureRecordViewSet)
 '''
 
 urlpatterns = [
-    path('api/', views.get_users),
+    path('api/users', views.get_users),
     path('api/user/<int:user_id>', views.get_user_data)
 ]
