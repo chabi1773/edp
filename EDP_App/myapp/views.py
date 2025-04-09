@@ -28,8 +28,8 @@ def get_user_data(request, user_id):
     current_temp = record_list[0] if record_list else None
 
     return Response({
-        'user': user.user_name
-        'current_temp': current_temp
-        'records': record_list
+        'user': user.user_name,
+        'current_temp': current_temp,
+        'records': record_list,
 
     })
